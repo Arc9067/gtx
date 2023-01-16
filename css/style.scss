@@ -118,6 +118,7 @@ nav {
         border-radius: 20px;
         color: #2596be;
         font-weight: bold;
+        cursor: pointer;
       }
     }
 
@@ -174,7 +175,7 @@ nav {
     }
     .row {
       // background-color: blue;
-      
+
       h3 {
         font-size: 1em;
         margin-top: 1rem;
@@ -183,7 +184,7 @@ nav {
         color: lightgray;
         margin-top: 1rem;
       }
-      a{
+      a {
         margin-top: 1rem;
         background-color: #05a0c4;
         text-transform: uppercase;
@@ -193,7 +194,40 @@ nav {
   }
 }
 
+#tokenomics {
+  background-color: #0d1518;
 
-#tokenomics{
-    background-color: red;
+  .container {
+    .center {
+      place-items: center;
+    //   background-color: blue;
+      margin: 0 auto;
+
+      .details {
+        background-color: black;
+        box-shadow: -1px 3px 40px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -1px 3px 40px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 3px 40px 0px rgba(0, 0, 0, 0.75);
+        margin: 0 auto;
+        gap: 2rem;
+        margin-bottom: 2rem;
+        // margin-right: 1rem;
+        text-align: center;
+        border-radius: 10px;
+        text-transform: capitalize;
+
+        h3 {
+          color: #fff;
+        }
+        p {
+          color: lightgray;
+        }
+      }
+    }
+    .thead {
+      text-transform: uppercase;
+      color: #05a0c4;
+      margin-bottom: 1rem;
+    }
+  }
 }
