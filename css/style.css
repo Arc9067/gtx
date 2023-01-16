@@ -30,6 +30,10 @@ ul li {
   list-style: none;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .navclr {
   background-color: var(--primary-clr);
 }
@@ -80,6 +84,14 @@ nav {
   font-weight: var(--fbold);
   padding-top: 1.5rem;
   font-style: italic;
+}
+#nav .container .nav-list ul li a {
+  color: var(--white-clr);
+  text-transform: capitalize;
+  font-weight: var(--fbold);
+  padding-top: 1.5rem;
+  font-style: italic;
+  cursor: pointer;
 }
 
 .nav-logo img {
@@ -237,4 +249,34 @@ nav {
   margin-top: 2rem;
   color: lightgray;
   text-transform: capitalize;
+}
+
+@media screen and (min-width: 600px) {
+  #nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #nav .container .nav-ul {
+    display: none;
+  }
+  #nav .container .nav-list {
+    display: grid;
+    grid-column: 1/2;
+    justify-content: right;
+    margin: 0 auto;
+  }
+  #nav .container .nav-list ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    justify-self: flex-end;
+    margin-right: 2rem;
+  }
+  #nav .container .nav-list ul li {
+    cursor: pointer;
+  }
+  #nav .container .nav-list ul li a {
+    color: #05a0c4;
+  }
 }/*# sourceMappingURL=style.css.map */
