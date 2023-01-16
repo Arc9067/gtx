@@ -89,7 +89,6 @@ nav {
 #home {
   background-color: var(--lblack);
   padding-top: 5rem;
-  min-height: 100vh;
 }
 #home .container button {
   background: rgb(5, 160, 196);
@@ -141,7 +140,7 @@ nav {
 #about {
   background-color: #0d1518;
   color: var(--white-clr);
-  min-height: 100vh;
+  padding-bottom: 2rem;
 }
 #about .container .thead {
   display: block;
@@ -164,4 +163,8 @@ nav {
   background-color: #05a0c4;
   text-transform: uppercase;
   color: var(--white-clr);
+}
+
+#tokenomics {
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */

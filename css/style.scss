@@ -95,7 +95,6 @@ nav {
 #home {
   background-color: var(--lblack);
   padding-top: 5rem;
-  min-height: 100vh;
 
   .container {
     button {
@@ -162,7 +161,7 @@ nav {
   // background-color: red;
   background-color: #0d1518;
   color: var(--white-clr);
-  min-height: 100vh;
+  padding-bottom: 2rem;
 
   .container {
     .thead {
@@ -192,4 +191,9 @@ nav {
       }
     }
   }
+}
+
+
+#tokenomics{
+    background-color: red;
 }
