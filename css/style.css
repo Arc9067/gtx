@@ -89,6 +89,7 @@ nav {
 #home {
   background-color: var(--lblack);
   padding-top: 5rem;
+  overflow: hidden;
 }
 #home .container .btn {
   background: rgb(5, 160, 196);
@@ -141,6 +142,7 @@ nav {
   background-color: #0d1518;
   color: var(--white-clr);
   padding-bottom: 2rem;
+  overflow: hidden;
 }
 #about .container .thead {
   display: block;
@@ -166,6 +168,7 @@ nav {
 
 #tokenomics {
   background-color: #0d1518;
+  overflow: hidden;
 }
 #tokenomics .container .center {
   place-items: center;
