@@ -158,4 +158,10 @@ nav {
 #about .container .row p {
   color: lightgray;
   margin-top: 1rem;
+}
+#about .container .row a {
+  margin-top: 1rem;
+  background-color: #05a0c4;
+  text-transform: uppercase;
+  color: var(--white-clr);
 }/*# sourceMappingURL=style.css.map */
