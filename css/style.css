@@ -89,6 +89,7 @@ nav {
 #home {
   background-color: var(--lblack);
   padding-top: 5rem;
+  min-height: 100vh;
 }
 #home .container button {
   background: rgb(5, 160, 196);
@@ -113,6 +114,8 @@ nav {
   color: var(--white-clr);
   display: grid;
   gap: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 #home .container .row h3 {
   font-size: 1.2em;
@@ -133,4 +136,26 @@ nav {
 }
 #home .container .row .homeimg img {
   height: 20rem;
+}
+
+#about {
+  background-color: #0d1518;
+  color: var(--white-clr);
+  min-height: 100vh;
+}
+#about .container .thead {
+  display: block;
+}
+#about .container .thead h2 {
+  color: var(--primary-clr);
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+#about .container .row h3 {
+  font-size: 1em;
+  margin-top: 1rem;
+}
+#about .container .row p {
+  color: lightgray;
+  margin-top: 1rem;
 }/*# sourceMappingURL=style.css.map */
