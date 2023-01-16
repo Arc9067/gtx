@@ -97,7 +97,7 @@ nav {
   padding-top: 5rem;
 
   .container {
-    button {
+    .btn {
       background: rgb(5, 160, 196);
       background: linear-gradient(
         0deg,
@@ -131,8 +131,7 @@ nav {
       display: flex;
       justify-content: space-between;
 
-      h3 {
-        font-size: 1.2em;
+      h1 {
         text-transform: capitalize;
         padding-top: 1rem;
       }
@@ -167,10 +166,9 @@ nav {
   .container {
     .thead {
       display: block;
-      h2 {
+      h1 {
         color: var(--primary-clr);
         text-transform: uppercase;
-        font-size: 1.3em;
       }
     }
     .row {
@@ -215,6 +213,7 @@ nav {
         text-align: center;
         border-radius: 10px;
         text-transform: capitalize;
+        padding: 1rem;
 
         h3 {
           color: #fff;
@@ -230,4 +229,50 @@ nav {
       margin-bottom: 1rem;
     }
   }
+}
+
+
+#footer{
+    background-color: #000;
+    padding-top: 2rem;
+
+    .container{
+        // background-color: blue;
+
+        .row{
+            // background-color: yellow;
+            margin: 0 auto;
+
+            .col-12{
+                // background-color: green;
+                text-align: center;
+                text-transform: capitalize;
+                img{
+                    height: 3rem;
+                }
+                p{
+                    color: #fff;
+                }
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                    max-width: max-content;
+                    margin: 0 auto;
+                    gap: 2rem;
+
+                    i{
+                        font-size: 2em;
+                        color: #05a0c4;
+                    }
+                }
+            }
+        }
+    }
+    .copy{
+        background-color: #05a1c491;
+        text-align: center;
+        margin-top: 2rem;
+        color: lightgray;
+        text-transform: capitalize;
+    }
 }
