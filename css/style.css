@@ -91,18 +91,20 @@ nav {
   padding-top: 5rem;
   overflow: hidden;
 }
-#home .container .btn {
+#home .container a {
   background: rgb(5, 160, 196);
   background: linear-gradient(0deg, rgb(5, 160, 196) 0%, rgba(5, 160, 196, 0.8351715686) 100%);
   outline: none;
   border-color: transparent;
-  display: grid;
-  grid-template-columns: 1.5fr 0.5fr;
   place-items: center;
   text-transform: uppercase;
+  display: block;
   margin: 0 auto;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
 }
-#home .container .btn i {
+#home .container a i {
   background-color: black;
   padding: 0.5rem;
   border-radius: 20px;

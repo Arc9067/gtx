@@ -98,7 +98,7 @@ nav {
   overflow: hidden;
 
   .container {
-    .btn {
+    a {
       background: rgb(5, 160, 196);
       background: linear-gradient(
         0deg,
@@ -107,11 +107,13 @@ nav {
       );
       outline: none;
       border-color: transparent;
-      display: grid;
-      grid-template-columns: 1.5fr 0.5fr;
+    //   display: grid;
+    //   grid-template-columns: 1.5fr 0.5fr;
       place-items: center;
       text-transform: uppercase;
+      display: block;
       margin: 0 auto;
+      max-width: max-content;
 
       i {
         background-color: black;
